@@ -1,0 +1,381 @@
+body{
+    margin: 0;
+}
+header{
+    
+    background: url(../imgs/gif.gif), url(../imgs/gif22.gif);
+    background-repeat:round;
+    background-size: 40% ;
+    background-attachment: fixed;
+    margin: 0px -8px 0px -8px;
+}
+/*Adicionar esse CSS Quando escolherem uma das tres imagens que vão nas div's comentadas*/
+header div{
+    display: inline-block;
+    
+}
+
+#logo{
+    
+    margin: 0px 300px;
+    
+}
+#logo img{
+    width: 200px;
+    height: 185px;
+}
+article{
+    padding: 50px;
+}
+
+#menu-list{
+    margin:0px;
+    padding: 0px;
+    box-shadow: 3px 2px 2px #006600; 
+    border-top: solid 1px #060;
+    
+}
+#menu-list li{
+    list-style: none;
+    display: inline-block;
+    background: #016533;
+    margin-right:-4px;
+    padding: 10px 15px;
+    width: 240px;
+    text-align: center;
+    
+}
+#menu-list li a{
+    
+    text-decoration: none;
+    color:#fff;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+#menu-list li ul{
+    display: none;
+}
+#menu-list li:hover{
+    background:#ccc;
+    box-shadow: 0px 2px 0px #000;     
+}
+#menu-list li:hover a{
+      color:#222;
+}
+#submenu:hover ul{
+    position: absolute;
+    display: block;
+    width: 100px;
+    left: 230px;
+    margin-top:8px;
+    z-index: 9999;
+}
+#submenu:hover li{
+    background:#ccc;
+    box-shadow: 0px 2px 0px #000;
+    
+    
+}
+#submenu:hover li:hover{
+    background: #016533;
+    box-shadow: 0px 2px 0px #000;
+    
+}
+#submenu:hover li:hover a{
+    color:#fff;
+    
+}
+
+/* -------------------------Esse css do Menu estava muito extenso-----------------------------------
+
+#menu #menu-list{
+    list-style:none;
+    box-shadow: 3px 2px 2px #006600;
+    margin: 0px;
+    text-align: center; 
+    padding: 0px;
+    background-color:#016533;
+    border-top: solid 1px #060;
+    
+}
+
+/*#menu #menu-list li{
+    display: inline-block;
+    padding: 10px 10px;
+    width: 12.84em;
+    font-size: 1.2em;
+    
+}
+
+#menu a {
+    
+    color: #fff;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 500;
+   
+}
+#menu #menu-list li:hover a{
+      color:#222;
+}
+#menu #menu-list li:hover {
+    background:#ccc;
+    box-shadow: 0px 2px 0px #000;
+    
+}
+#submenu{
+    display: none;
+    
+}
+#menu-list li #submenu{
+    position: absolute;
+    left: 12.01em;
+    top: 12.1em;
+}
+#menu-list li #submenu li{
+   width: 10.7em;
+    
+}
+#menu-list li #submenu li a{
+  font-size: 20px;
+}
+#menu-list li:hover #submenu{
+    display: block;
+}
+#menu-list li:hover #submenu li{
+  background:#ccc;
+  box-shadow: 0px 2px 0px #000; 
+}
+#menu-list li:hover #submenu li:hover{
+  background:#016533;
+  box-shadow: 0px 2px 0px #000;
+
+}
+*/
+#rodape{
+    color:#fff;
+    font-family: Roboto;
+    background:#000; 
+    margin-left:-8px;
+    margin-right:-8px;
+    padding: 100px 0px 80px 0px;
+    height:300px;
+    
+}
+#rodape div{ 
+    border-top:solid 2px #016533;
+    margin: 0px 60px;
+    border-bottom:solid 2px #016533;
+    padding: 0px;
+}
+
+#rodape ul{
+    padding:50px 60px;
+    display:inline-block;
+}
+#rodape li{
+   list-style: none;
+   padding: 5px;
+   font-size: 1.1em;
+}
+#rodape a{
+    text-decoration: none;
+    color:#fff;
+}
+#rodape span{
+    color:#016533;
+}
+small{
+    margin: 500px;
+}
+ul#news{
+    /*padding: 50px 0px 50px 20px;*/
+    position: absolute;
+    margin-top: 12px;
+    margin-bottom: 70px;
+    width: 36%;
+}
+#news input{
+    border: solid 2px  #016533;
+    border-radius: 5px;
+    padding: 8px;
+    width: 60%;
+}
+#news label{
+    font-weight: 700;
+    font-size: 1.7em;
+}s
+#news input:focus{
+    border:solid 2px #ccc;
+    border-radius: 5px;
+}
+#news button{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    background: #016533;
+    font-family: Roboto, sans-serif;
+    font-weight: 700; 
+}
+#news button:hover{
+    background:#ccc;
+    color:#222;
+}
+#contatos{
+ background:#ccc;
+}
+#contatos ul{
+    list-style: none;
+    font-size: 24px;
+  
+   
+}
+#contatos ul li{
+    margin-bottom: 50px;
+}
+#contatos a{
+   text-decoration: none;
+   color: #000;
+}
+#contatos div{
+    display: inline-block;
+}
+div#info {
+    margin: 100px 70px 100px 80px;
+}
+div#map {
+    margin: 100px 0px 0px 70px;
+}
+#qsomos h1{
+    text-align: center;
+    font-size: 34px;
+    font-family: Roboto;
+}
+#qsomos p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto;
+    margin-bottom: 100px;
+}
+
+#qsomos div{
+    display: inline-block;
+    width: 390px;
+    margin: 0px 10px;
+    text-align: center;
+ 
+} 
+#qsomos div h6{
+    margin-bottom: 1px;
+    font-size: 24px;
+    font-weight: 20;
+    font-family: Roboto;
+}
+#qsomos div p{
+    font-size: 18px;
+    font-family: Roboto;
+}
+#produtos img{
+    width: 350px;
+}
+#produtos div{
+    width: 350px;
+    display: inline-block;
+    margin: 0px 31px;
+}
+#produtos h1{
+    text-align: center;
+    font-size: 34px;
+    font-family: Roboto;
+}
+#produtos p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto;
+    margin-bottom: 100px;
+}
+#produtos div h6{
+    margin: 0px 0px 30px 0px;
+    font-size: 24px;
+    font-family: Roboto;
+}
+#produtos2{
+     padding-left: 250px;
+    
+}
+#produtos2 div{
+    width: 350px;
+    display: inline-block;
+    margin: 0px 31px;
+   
+}
+#produtos2 img{
+    width: 350px;
+}
+#produtos2 div h6{
+    margin: 0px 0px 30px 0px;
+    font-size: 24px;
+    font-family: Roboto;
+}
+#sjc h1{
+    text-align: center;
+    font-size: 34px;
+    font-family: Roboto;
+}
+#sjc h6{
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+#sjc p{
+    text-align: justify;
+    text-indent:4em;
+    font-size: 18px;
+    font-family: Roboto;
+    margin-bottom: 100px;
+}
+#form{
+    Width:800px;
+    margin: auto;
+}
+#form form{
+    margin: 20px;
+}
+#form input{
+    width: 350px;
+    margin: 5px 3px;
+    padding: 8px;
+}
+#form #email{
+    width:730px;
+}
+#form #assunto{
+    width:730px;
+}
+textarea#duvida {
+    width: 730px;
+    margin: 5px 3px;
+    padding: 8px;
+    height: 200px;
+}
+#form input, textarea {
+    border-radius: 5px;
+    background: #f2f2f2;
+    border: 1px solid #016533;
+}
+#form #button{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    background: #016533;
+    font-family: Roboto, sans-serif;
+    font-weight: 700; 
+    width: 200px;
+    color: white;
+    font-size: 14px;
+}
+#button i{
+    margin: 0px 6px;
+}
